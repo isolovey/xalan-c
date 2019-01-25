@@ -24,8 +24,8 @@
 
 #if defined(XALAN_BUILD_DLL)
 
-#define XALAN_XPATHCAPI_EXPORT __declspec(dllexport)
-#define XALAN_XPATHCAPI_EXPORT_FUNCTION(T) T __declspec(dllexport)
+#define XALAN_XPATHCAPI_EXPORT 
+#define XALAN_XPATHCAPI_EXPORT_FUNCTION(T) T 
 
 #else
 
