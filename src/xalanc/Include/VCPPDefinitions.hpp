@@ -29,8 +29,8 @@
 //  These defines provide the platform specific keywords that they need
 //  to do this.
 // ---------------------------------------------------------------------------
-#define XALAN_PLATFORM_EXPORT     __declspec(dllexport)
-#define XALAN_PLATFORM_IMPORT     __declspec(dllimport)
+#define XALAN_PLATFORM_EXPORT 
+#define XALAN_PLATFORM_IMPORT 
 #define XALAN_PLATFORM_EXPORT_FUNCTION(T) XALAN_PLATFORM_EXPORT T
 #define XALAN_PLATFORM_IMPORT_FUNCTION(T) XALAN_PLATFORM_IMPORT T
 
